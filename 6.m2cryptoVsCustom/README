@@ -1,0 +1,6 @@
+Use the command below at the terminal to extract the public exponent 
+and modulo
+
+>> openssl rsa -pubin -inform PEM -text -noout < public_key.pub
+
+To convert the hexadecimal string with colons(:), you can utilize hexToInt.py
